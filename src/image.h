@@ -9,7 +9,6 @@ typedef struct image
     float *data;
 } image;
 
-
 image *load_image_data(char *img_path);
 void save_image_data(image *img, char *savepath);
 #endif
